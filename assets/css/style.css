@@ -68,8 +68,6 @@ body {
 #center{
     display: flex;
     z-index: 1;
-
-    
 }
 
 #nav{
@@ -117,11 +115,12 @@ body {
 #content{
     height: 2000px;
     width: 1101px;
-    background-color: rgb(224, 228, 228);
+    background-color: rgb(236, 241, 241);
     display:flex;
     margin-left: 245px;
     margin-top: 90px;
     border-radius: 10px;
+    flex-direction: column;
 }
 
 #content .slider {
@@ -147,8 +146,13 @@ body {
     color: #fff;
 }
 
+#content .slider .point{
+    margin-top: 70px;
+    margin-left: 290px;
+}
+
 #content .slider .tab2{
-    background-color: rgb(240, 148, 186);
+    background-color: rgb(248, 178, 207);
     height: 260px;
     width: 290px;
     margin-left: 20px;
@@ -171,4 +175,62 @@ body {
    height: 150px;
    width: 150px;
    margin-top: 110px;
+}
+
+#content .update_text{
+    display: flex;
+    padding: 20px 30px;
+}
+
+#content .update_text a{
+    margin-left: 750px;
+    text-decoration: none;
+}
+#content .update_app{
+    width: 1040px;
+    height: 240px;
+    background-color:#fff;
+    margin-left: 30px;
+    border-radius: 10px;
+}
+#content .icon1{
+    padding: 5px 0;
+    display: flex;
+    margin-top: 10px;
+}
+
+#content .icon{
+    display: flex;
+    padding: 4px;
+    margin-left: 20px;
+}
+
+#content .title_icon{
+    padding: 0px 12px;
+    width: 190px;
+    font-size: 15px;
+    color: rgb(56, 55, 55);
+}
+
+#content .title_icon h6{
+    color: rgb(161, 172, 180);
+}
+
+#content .detail h4{
+    padding: 5px;
+    border: solid 1px rgb(43, 84, 218);
+    border-radius: 10px;
+    font-size: 14px;
+    color:rgb(43, 84, 218) ;
+}
+
+#content .detail h6{
+    margin-left: 10px;
+    margin-top: 4px;
+    color: rgb(161, 172, 180);
+}
+
+#content .icon img{
+    height: 50px;
+    width: 50px;
 }
