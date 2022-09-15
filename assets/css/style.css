@@ -230,7 +230,102 @@ body {
     color: rgb(161, 172, 180);
 }
 
-#content .icon img{
+#content .icon img,
+#content .tab4 .popular .app img{
     height: 50px;
     width: 50px;
 }
+
+#content .tab4{
+    width: 1040px;
+    height: 240px;
+    display: flex;
+}
+
+#content .tab4 .popular{
+    width: 600px;
+    height: 240px;
+    /* margin-left: 30px; */
+    margin-top: 40px;
+    display: flex;
+    flex-direction: column;
+}
+
+#content .tab4 .popular .popular_title{
+    display: flex;
+    margin-left: 30px;
+}
+
+#content .tab4 .popular .popular_title a{
+    text-decoration: none;
+    margin-left: 200px;
+}
+
+#content .tab4 .popular .popular_app1{
+    width: 500px;
+    height: 240px;
+    display: flex;
+    flex-direction: row;
+}
+
+#content .tab4 .popular .app{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 30px;
+    background-color:#fff;
+    margin-left: 30px;
+}
+
+#content .tab4 .popular .app .header_app{
+    padding: 20px;
+    width: 250px;
+    height: 80px;
+    display: flex;
+    background-color: rgb(218, 216, 216);
+    border-radius: 10px 10px 0px 0px;
+}
+
+#content .tab4 .popular .app .header_app .detail{
+    margin-left: 90px;
+}
+
+#content .tab4 .popular .app .header_app .detail h4{
+    background-color: #fff;
+}
+
+
+#content .tab4 .popular .app .middle_app .verson{
+    padding: 15px;
+}
+
+#content .tab4 .popular .app .middle_app .update{
+    display: flex;
+    padding: 0px 15px;
+    margin-top: 15px;
+}
+
+#content .tab4 .popular .app .middle_app .update .up2{
+    margin-left: 20px;
+}
+
+#content .tab4 .popular h6{
+    color: rgb(128, 131, 133)    ;
+}
+#content .tab4 .train .train_title{
+    display: flex;
+    margin-top: 40px;
+}
+
+#content .tab4 .train .train_title a{
+    margin-left: 100px;
+    text-decoration: none;
+}
+
+
+
+
+
+
