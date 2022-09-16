@@ -113,7 +113,7 @@ body {
 }
 
 #content{
-    height: 2000px;
+    height: 3000px;
     width: 1101px;
     background-color: rgb(236, 241, 241);
     display:flex;
@@ -314,15 +314,158 @@ body {
 #content .tab4 .popular h6{
     color: rgb(128, 131, 133)    ;
 }
+
+#content .tab4 .train{
+    margin-left: 20px;
+}
 #content .tab4 .train .train_title{
     display: flex;
     margin-top: 40px;
 }
 
 #content .tab4 .train .train_title a{
-    margin-left: 100px;
+    margin-left:86px;
     text-decoration: none;
 }
+
+#content .tab4 .train .tip{
+    height: 200px;
+    width: 470px;
+    background-color: rgb(243, 216, 126);
+    margin-top: 30px;
+    position: absolute;
+    right: 30px;
+    border-radius: 10px;
+    padding: 30px 20px;
+    display: flex;
+}
+
+#content .tab4 .train .tip h3{
+    font-size: 15px;
+}
+
+#content .tab4 .train .tip h6{
+    padding: 20px 5px;
+    color: rgb(112, 110, 110);
+}
+
+#content .tab4 .train .tip img{
+    height: 170px;
+    margin-left: 20px;
+}
+
+#content .tab4 .train .appfilm{
+    margin-top: 280px;
+    display: flex;
+    flex-direction: column;
+}
+
+#content .tab4 .train .appfilm .film_title{
+    display: flex;
+}
+
+#content .tab4 .train .appfilm .film_title a{
+    margin-left: 195px;
+    text-decoration: none;
+}
+
+#content .tab4 .train .appfilm .film_app{
+    display: flex;
+    margin-top: 20px;
+}
+
+#content .tab4 .train .appfilm .film_app img{
+    height: 50px;
+}
+
+#content .tab4 .train .appfilm .film_app .name{
+    margin-left: 20px;
+    width: 280px;
+}
+
+#content .tab4 .train .appfilm .film_app .name h5{
+    color: #b5b4c1;
+}
+
+.tab5{
+    width: 1040px;
+    height: 240px;
+    margin-top: 330px;
+    margin-left: 30px;
+}
+
+.tab5 .rally_title {
+    display: flex;
+}
+
+.tab5 .rally_title a{
+    text-decoration: none;
+    margin-left: 700px;
+}
+
+.tab5 .app1 {
+    display: flex;
+}
+
+.tab5 .app {
+    margin-right: 40px;
+}
+
+.tab5 .app h3{
+    margin-top: 10px;
+}
+
+.tab5 .app h5{
+    margin-top: 5px;
+    color: #b2b2bd;
+}
+
+.tab5 .app img{
+    margin-top: 30px;
+    border-radius: 10px;
+    height: 200px;
+}
+
+.tab6{
+    width: 1040px;
+    margin-top: 130px;
+    margin-left: 30px;
+    display: flex;  
+    flex-direction: column;
+}
+
+.tab6 .title {
+    display: flex;
+}
+
+.tab6 .title a{
+    text-decoration: none;
+    margin-left: 870px;
+}
+
+.tab6 .metro img{
+    margin-top: 30px;
+    height: 450px;
+    width: 430px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.tab6 .metro h3{
+    position: absolute;
+    top: 30px;
+}
+.tab6 .app1{
+    width: 300px;
+    background-color: rgb(68, 173, 173);
+    height: 300px;
+}
+
+
+
+
+
+
 
 
 
