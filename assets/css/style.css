@@ -14,6 +14,7 @@ body {
 
 #main{
     display:block;
+    height: 2900px;
 }
 
 #header{
@@ -21,7 +22,8 @@ body {
     display: flex;  
     position: fixed;
     background-color: #fff;
-    z-index: 1;
+    z-index: 2;
+    cursor: pointer;
 }
 
 #header .header_logo img{
@@ -51,9 +53,14 @@ body {
     color: rgb(76, 87, 87);
 }
 
+#header .header_tilte p:hover {
+    color:rgb(70, 67, 247);
+}
+
 #header .header_tilte {
     display: flex;
     padding: 10px;
+    cursor: pointer;
 }
 
 #header .header_tilte p{
@@ -63,6 +70,7 @@ body {
 #header .header_avt{
     display: block;
     margin-left: 300px;
+    cursor: pointer;
 }
 
 #center{
@@ -78,14 +86,22 @@ body {
     flex-direction: column;  
     margin-top: 76px;
     z-index: 1;
+    margin-top: 100px;
 }
 
 #nav h4{
     margin-left: 8px;
+    cursor: pointer;
 }
 #nav .nav_app{
     display: flex;
     color: rgb(115, 119, 122);
+    background-color: #f1f4fd;
+    height: 40px;
+    padding: 10px;
+    width: 130px;  
+    color: #5467e7;
+    border-radius: 12px;
 }
 
 #nav .nav_list {
@@ -99,12 +115,23 @@ body {
     text-decoration: none;
     line-height: 20px; 
     padding: 8px;
+    margin-top: 10px;
 }
 
 #nav .nav_icon{
     display: flex;
     color: rgb(115, 119, 122);
+    padding: 8px;
+    margin-top: 10px;
 }
+
+#nav .nav_icon:hover{
+    background-color: rgb(192, 200, 206);
+    width: 130px;  
+    border-radius: 12px;
+    color: #5467e7;
+}
+
 
 #nav img{
     border-radius: 10px;
@@ -113,7 +140,7 @@ body {
 }
 
 #content{
-    height: 3000px;
+    height: 2630px;
     width: 1101px;
     background-color: rgb(236, 241, 241);
     display:flex;
@@ -135,6 +162,7 @@ body {
     background-color: rgb(148, 127, 243);
     padding: 16px 30px;
     border-radius: 10px;
+    cursor: pointer;
     display: flex;
 }
 
@@ -157,6 +185,7 @@ body {
     width: 290px;
     margin-left: 20px;
     border-radius: 10px;
+    cursor: pointer;
     display: flex;
 }
 
@@ -216,12 +245,24 @@ body {
     color: rgb(161, 172, 180);
 }
 
+#content .title_icon:hover h4{
+    color: #5467E7;
+    cursor: pointer;
+}
+
+
 #content .detail h4{
     padding: 5px;
     border: solid 1px rgb(43, 84, 218);
     border-radius: 10px;
     font-size: 14px;
     color:rgb(43, 84, 218) ;
+}
+
+#content .detail:hover h4{
+    color: #fff;
+    background-color: #5467E7;
+    cursor: pointer;
 }
 
 #content .detail h6{
@@ -234,6 +275,7 @@ body {
 #content .tab4 .popular .app img{
     height: 50px;
     width: 50px;
+    cursor: pointer;
 }
 
 #content .tab4{
@@ -296,10 +338,22 @@ body {
     background-color: #fff;
 }
 
+#content .tab4 .popular .app .header_app .detail h4:hover{
+    color: #fff;
+    background-color: #5467E7;
+    cursor: pointer;
+}
+
 
 #content .tab4 .popular .app .middle_app .verson{
     padding: 15px;
 }
+
+#content .tab4 .popular .app .middle_app .verson h4:hover{
+    color: #5467E7;
+    cursor: pointer;  
+}
+
 
 #content .tab4 .popular .app .middle_app .update{
     display: flex;
@@ -338,6 +392,7 @@ body {
     border-radius: 10px;
     padding: 30px 20px;
     display: flex;
+    cursor: pointer;
 }
 
 #content .tab4 .train .tip h3{
@@ -376,6 +431,7 @@ body {
 
 #content .tab4 .train .appfilm .film_app img{
     height: 50px;
+    cursor: pointer;
 }
 
 #content .tab4 .train .appfilm .film_app .name{
@@ -386,6 +442,12 @@ body {
 #content .tab4 .train .appfilm .film_app .name h5{
     color: #b5b4c1;
 }
+
+#content .tab4 .train .appfilm .film_app .name h4:hover{
+    color: #5467E7;
+    cursor: pointer;
+}
+
 
 .tab5{
     width: 1040px;
@@ -409,10 +471,16 @@ body {
 
 .tab5 .app {
     margin-right: 40px;
+    cursor: pointer;
 }
 
 .tab5 .app h3{
     margin-top: 10px;
+}
+
+.tab5 .app h3:hover{
+    color: #5467E7;
+    cursor: pointer;
 }
 
 .tab5 .app h5{
@@ -431,7 +499,12 @@ body {
     margin-top: 130px;
     margin-left: 30px;
     display: flex;  
-    flex-direction: column;
+    flex-direction:column ;
+}
+
+.tab6 .middle{
+    display: flex;
+    flex-direction: row;
 }
 
 .tab6 .title {
@@ -445,20 +518,214 @@ body {
 
 .tab6 .metro img{
     margin-top: 30px;
-    height: 450px;
-    width: 430px;
+    height: 530px;
+    width: 516px;
     border-radius: 10px;
     position: relative;
 }
 
-.tab6 .metro h3{
+.tab6 .metro .text{
     position: absolute;
-    top: 30px;
+    top: 2060px;
+    color: rgb(151, 144, 144);
+    font-size: 14px;
+    left: 300px;
+    border-radius: 10px;
+    padding: 1px;
+    color: #fff;
+    margin-left: 10px;
+    z-index: 1;
 }
+
+.tab6 .metro .text h3{
+    background-color: #fff;
+    color: #b5b4c1;
+    padding: 3px;
+    width: 70px;
+    border-radius: 10px;
+    font-size: 16px;
+}
+
+.tab6 .metro .text h4:hover{
+    color: #5467E7;
+    cursor: pointer;
+}
+
+.tab6 .metro .text h3:hover{
+    color: #fff;
+    background-color: #5467E7;
+    cursor: pointer;
+}
+
+
+.tab6 .metro .text h4{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.tab6  .dow{
+    display: flex;
+    margin-top: 15px;
+    color: #9393a3;
+    margin-left: 10px;
+}
+
+.tab6 .metro .dow h6{
+    margin: 4px;
+}
+
+.tab6 .metro .dowload{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+}
+
+.tab6 .metro .dowload .detail{
+    margin-left: 260px;
+}
+
+.tab6 .metro .dowload .detail h4{
+    background-color: #fff;
+}
+
+.tab6 .metro .dowload .detail h6{
+    font-size: 10px;
+}
+
+
+.tab6 .app img{
+    height: 140px;
+    border-radius: 10px;
+    width: 224px;
+}
+
 .tab6 .app1{
-    width: 300px;
-    background-color: rgb(68, 173, 173);
-    height: 300px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+.tab6 .app{
+    display: flex;
+    margin-bottom: 50px;
+    width: 500px;
+    background-color: #fff  ;
+    border-radius: 10px;
+}
+
+.tab6 .app .text{
+    margin:10px;
+}
+
+.tab6 .app .text h3{
+    font-size: 12px;
+    border-radius: 12px;
+    box-shadow: 0px 1px 2px rgb(38 45 82 / 12%);
+    padding: 5px 10px;
+    line-height: 15px;
+    color: #9a9aab;
+    width: 100%;
+    cursor: pointer;    
+    width: 120px;
+}
+
+.tab6 .app .text h3:hover{
+    color: #fff;
+    background-color: #5467E7;
+    cursor: pointer;
+}
+
+.tab6 .app .text h4:hover{
+    color: #5467E7;
+    cursor: pointer;
+}
+
+
+.tab6 .app .text h4{
+    padding: 10px;
+}
+
+.tab6 .app .dowload{
+    display: flex;
+    margin-top: 20px;
+    flex-direction: row;
+}
+
+.tab6 .app .dowload .detail{
+    margin-left: 110px;
+}
+
+.tab6 .app .dow h6{
+    margin-top: 4px;
+    margin-left:4px ;
+}
+
+.tab7 .hotgame {
+    display: flex;
+    margin-left: 30px;
+}
+
+.tab7 .hotgame a{
+    text-decoration: none;
+    margin-left: 720px;
+}
+
+.tab7 .app1{
+    display: flex;
+}
+.tab7 .app{
+    display: flex;
+    flex-direction: column;
+    margin-left: 30px;  
+    margin-top: 30px;
+}
+
+.tab7 .app img{
+    width: 330px;
+    height: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.tab7 .app h3{
+    font-size: 12px;
+    border-radius: 12px;
+    box-shadow: 0px 1px 2px rgb(38 45 82 / 12%);
+    padding: 5px 10px;
+    line-height: 15px;
+    color: #9a9aab;
+    cursor: pointer;
+    width: 90px;
+    margin: 15px 0px 0px 0px;  
+}
+
+.tab7 .app h3:hover{
+    color:#fff;
+    background-color: #5467E7;
+    cursor: pointer;
+}
+
+
+.tab7 .app h4{
+    padding: 15px 0px;
+    color: #262D52;
+}
+
+.tab7 .app h6{
+    color: #9a9aab;
+}
+
+.last {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+.last a{
+    text-decoration: none;
+    font-size: 18px;
+    text-align: center;
+
 }
 
 
